@@ -58,5 +58,5 @@ setup(
     entry_points="""
     [deluge.plugin.core]
     %s = %s:CorePlugin
-    """ % ((__plugin_name__, __plugin_name__.lower())*3)
+    """ % ((__plugin_name__, __plugin_name__.lower()))
 )
